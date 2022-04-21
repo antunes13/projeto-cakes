@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+:root{
+
+    --cor0: #733917;
+    --cor1: #F26849;
+    --cor2: #BF5841;
+    --cor3: #EDE0E0;
+    --cor4: #DD4B39;
+    --cor5: #0D0D0D;
+    --cor6: #716E6B;
+    --cor7: #FFFFFF;
+    --cor8: #9d4045;
+    --cor9: #cfcbc5;
+}
+
+body{
+    background-color: var(--cor7);
+    font-size: 1.2em;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.social{
+    background-color: var(--cor4);
+    color: var(--cor7);
+}
+.media{
+    float: right;
+}
+.logo{
+    background-color: var(--cor3); 
+    background-image: url('../img/bolo1.png');
+    background-repeat: no-repeat;
+}
+
+.logo img{
+    width: 25%;
+    margin-left: 37%;
+}
+.menu{
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.17);
+}
+.menu a{
+    color:var(--cor0);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition-duration: 0.4s;    
+}
+.menu a:hover{
+    background-color: #ffd5cb;
+    color:var(--cor4);
+       
+}
+#sobre{
+    background-image:linear-gradient(to top, #cf7c69, #d79584c2);
+    color: white;
+    margin-top: 30px;
+}
+
+#sobre h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 2.2em;
+}
+
+#sobre p{
+    text-align: justify;
+    padding: 50px;
+}
+
+#sobre img{
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#portifolio{
+    background-image:linear-gradient(to bottom, #cf7c69, #d79584c2);
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+#portifolio h2{
+    font-size: 2.2em;
+    margin: 20px;
+    padding: 5px;
+}
+.row {
+    padding: 5px;
+}
+.orcamento{
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+}
+
+.orcamento h2{
+    background-color: var(--cor8);
+    color: white;
+    display: inline-block;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.137);
+    margin: 0% 40%;
+    padding: 2px;
+    
+}
+.orcamento > h2:hover{
+    background-color: #ede0e000;
+    color: var(--cor8);
+
+
+}
+#orcamento{
+    background-image: url('../img/foto2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 20px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.455);
+}
+footer{
+    background-color: var(--cor9);
+    margin-top: 15px;
+    padding-bottom: 10vh;
+    padding-top: 15vh;
+}
+#contato{
+    background-image:linear-gradient(to bottom, var(--cor3), var(--cor6));
+    text-align: center;
+    font-weight: lighter;
+    border-bottom: 1px solid black;
+    margin: 0px 50px;
+}
+.col{
+    padding: 10px;
+    display: inline-flex;
+}
+.contato{
+    margin-left: 15px;
+    color: var(--cor7);
+}
+.endereco{
+    margin-left: 24%;
+    color: var(--cor7);
+}
+
+
+
+
+
+
