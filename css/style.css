@@ -134,8 +134,7 @@ footer{
     background-image:linear-gradient(to bottom, var(--cor3), var(--cor6));
     text-align: center;
     font-weight: lighter;
-    border-bottom: 1px solid black;
-    margin: 0px 50px;
+    border-bottom: 1px solid black;    
 }
 .col{
     padding: 10px;
@@ -146,7 +145,7 @@ footer{
     color: var(--cor7);
 }
 .endereco{
-    margin-left: 24%;
+    margin-left: 20%;
     color: var(--cor7);
 }
 
